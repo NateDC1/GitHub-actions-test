@@ -1,0 +1,13 @@
+# #Terminal Commands for GitHub Actions
+
+# it remote add origin git@github.com:NateDC1/GitHub-actions-test.git
+
+# git init
+
+# git remote -v
+
+# git add -A   
+
+# git commit -m 'first workflow'
+
+# git push --set-upstream origin main
