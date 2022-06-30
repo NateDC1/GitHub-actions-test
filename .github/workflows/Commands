@@ -11,3 +11,5 @@
 # git commit -m 'first workflow'
 
 # git push --set-upstream origin main
+
+#git remote set-url origin git@github.com:NateDC1/GitHub-actions-test.git
