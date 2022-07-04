@@ -1,6 +1,6 @@
 name: Shell Commands
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   run-shell-command:
@@ -18,12 +18,13 @@ jobs:
           print(platform.processor())
         shell: python
 
-  run-windows-commands:
-    runs-on: windows-latest
-    needs: ["run-shell-command"]
-    steps:
-      - name:
-        run: Get-Location 
-      - names: Directory Bash
-        run: pwd
-        shell: bash
+  # run-windows-commands:
+  #   runs-on: windows-latest
+  #   needs: ["run-shell-command"]
+  #   steps:
+  #     - name: get-location
+  #         run: |
+  #           Get-Location 
+  #     - names: Directory Bash
+  #         run: pwd
+  #         shell: bash
